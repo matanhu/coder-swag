@@ -13,6 +13,8 @@
 		D37EEC462145D4A2003A1745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37EEC452145D4A2003A1745 /* Assets.xcassets */; };
 		D37EEC492145D4A2003A1745 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D37EEC472145D4A2003A1745 /* LaunchScreen.storyboard */; };
 		D37EEC542145DF12003A1745 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37EEC532145DF12003A1745 /* CategoryCell.swift */; };
+		D37EEC562145E254003A1745 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37EEC552145E254003A1745 /* Category.swift */; };
+		D37EEC592145E3D6003A1745 /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37EEC582145E3D6003A1745 /* DateService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D37EEC482145D4A2003A1745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D37EEC4A2145D4A2003A1745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D37EEC532145DF12003A1745 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		D37EEC552145E254003A1745 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		D37EEC582145E3D6003A1745 /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		D37EEC3D2145D4A1003A1745 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				D37EEC572145E3C7003A1745 /* Services */,
 				D37EEC522145DE8E003A1745 /* View */,
 				D37EEC512145DE86003A1745 /* Model */,
 				D37EEC502145DE7E003A1745 /* Controller */,
@@ -79,6 +84,7 @@
 		D37EEC512145DE86003A1745 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D37EEC552145E254003A1745 /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				D37EEC532145DF12003A1745 /* CategoryCell.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D37EEC572145E3C7003A1745 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D37EEC582145E3D6003A1745 /* DateService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +179,8 @@
 				D37EEC412145D4A1003A1745 /* CategoriesVC.swift in Sources */,
 				D37EEC3F2145D4A1003A1745 /* AppDelegate.swift in Sources */,
 				D37EEC542145DF12003A1745 /* CategoryCell.swift in Sources */,
+				D37EEC562145E254003A1745 /* Category.swift in Sources */,
+				D37EEC592145E3D6003A1745 /* DateService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
