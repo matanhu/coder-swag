@@ -15,6 +15,7 @@
 		D37EEC542145DF12003A1745 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37EEC532145DF12003A1745 /* CategoryCell.swift */; };
 		D37EEC562145E254003A1745 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37EEC552145E254003A1745 /* Category.swift */; };
 		D37EEC592145E3D6003A1745 /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37EEC582145E3D6003A1745 /* DateService.swift */; };
+		D37EEC5B2145F18F003A1745 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37EEC5A2145F18F003A1745 /* ProductCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D37EEC532145DF12003A1745 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		D37EEC552145E254003A1745 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		D37EEC582145E3D6003A1745 /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
+		D37EEC5A2145F18F003A1745 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				D37EEC532145DF12003A1745 /* CategoryCell.swift */,
+				D37EEC5A2145F18F003A1745 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				D37EEC412145D4A1003A1745 /* CategoriesVC.swift in Sources */,
 				D37EEC3F2145D4A1003A1745 /* AppDelegate.swift in Sources */,
 				D37EEC542145DF12003A1745 /* CategoryCell.swift in Sources */,
+				D37EEC5B2145F18F003A1745 /* ProductCell.swift in Sources */,
 				D37EEC562145E254003A1745 /* Category.swift in Sources */,
 				D37EEC592145E3D6003A1745 /* DateService.swift in Sources */,
 			);
